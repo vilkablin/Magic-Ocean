@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Chernysheva Violetta" />
+    <title>MagicOcean</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <a href="#intro" class="up_btn">
+      <img src="media/icons/to_up.svg" alt="#">
+    </a>
+    <section class="intro d-flex-columns py-40 w-100" id="intro">
+      <div class="container">
+        <div class="meduza-top">
+          <img src="media/intro/meduza_top.png" alt="meduza" />
+        </div>
+        <header class="header d-flex-rows w-100">
+          <div class="logo">
+            <img src="media/Logo/logo.svg" alt="logo" />
+          </div>
+          <nav class="nav d-flex-rows">
+            <a href="#intro" class="nav_a">Главная</a>
+            <a href="#about" class="nav_a">О нас</a>
+            <a href="#locations" class="nav_a">Локации</a>
+            <a href="#tickets" class="nav_a">Билеты</a>
+            <a href="#contacts" class="nav_a">Контакты</a>
+          </nav>
+          <div class="number d-flex-rows">
+            <img src="media/icons/call.svg" alt="call" />
+            <a href=":tel+7(917)-911-52-62" class="num">+7(917)-911-52-62</a>
+          </div>
+        </header>
+        <div class="intro-inner w-100 d-flex-columns">
+          <div class="intro-info w-100 d-flex-columns">
+            <div class="info-header">
+              <h2>Magic</h2>
+              <h1>Oceanarium</h1>
+            </div>
+            <p>Познайте удивительный подводный мир</p>
+            <a href="#tickets" class="button">посмотреть билеты</a>
+          </div>
+        </div>
+        <div class="meduza-bottom">
+          <img src="media/intro/meduza_bottom.png" alt="meduza" />
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about w-100 py-40" id="about">
+      <div class="container">
+        <div class="about-inner w100 py-40 d-flex-columns">
+          <div class="about-more_than">
+            <div class="more_than-border d-flex-columns">
+              <p class="text-top">более</p>
+              <p class="numbs">7000</p>
+              <p class="text-bottom">
+                видов рыб и морских существ <br />со всего мира
+              </p>
+            </div>
+          </div>
+          <div class="about-info d-flex-rows">
+            <div class="info-card d-flex-columns">
+              <p class="numb">14</p>
+              <p class="card-p">
+                Ярких локаций<br />
+                для ваших<br />
+                фотографий
+              </p>
+            </div>
+            <div class="info-card d-flex-columns">
+              <p class="numb">8</p>
+              <p class="card-p">
+                Больших<br />
+                аквариумов для<br />
+                медуз
+              </p>
+            </div>
+            <div class="info-card d-flex-columns">
+              <p class="numb">3400</p>
+              <p class="card-p">
+                квадратных метров<br />
+                площадь<br />
+                океанариума
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- locations -->
+    <section id="locations" class="locations w-100 py-40">
+      <div class="container">
+        <div class="locations-inner">
+          <h2>Локации</h2>
+          <div
+            class="itc-slider locations-slider d-flex-rows"
+            data-autoplay="auto"
+            data-interval="6000"
+            data-loop="true"
+            data-slider="itc-slider"
+          >
+            <div class="itc-slider-wrapper">
+              <div class="itc-slider-items">
+                <div class="itc-slider-item d-flex-rows w-100">
+                  <div class="card-text d-flex-columns">
+                    <p>
+                      “Медузариум” - зал, где находится 8 крупных аквариумов для
+                      медуз. В этом месте обитают тихоокеанские морские крапивы,
+                      акворея виктория, волосистые цианеи, медузы spotted lagoon
+                      и многие другие.
+                    </p>
+                  </div>
+                  <div class="card-img">
+                    <img src="media/locations/1.png" alt="meduzarium" />
+                  </div>
+                </div>
+                <div class="itc-slider-item d-flex-rows">
+                  <div class="card-text d-flex-columns">
+                    <p>
+                      “Тюленье побержье” - просторный акваруим для нерп,
+                      тюленей, морских котиков. Дружелюбные животные часто
+                      подплывают к людям, при желании можно купить корм.
+                    </p>
+                  </div>
+                  <div class="card-img">
+                    <img src="media/locations/2.png" alt="seals" />
+                  </div>
+                </div>
+                <div class="itc-slider-item d-flex-rows">
+                  <div class="card-text d-flex-columns">
+                    <p>
+                      “Настоящие хищники” - зона, на которой находится несколько
+                      аквариумов с хищниками. Среди них акулы мако,
+                      атлантическая сельдевая акула, рыба-меч, тунец, луфарь,
+                      зубатка, а так же несколько видов мелких хищников.
+                    </p>
+                  </div>
+                  <div class="card-img">
+                    <img src="media/locations/3.png" alt="meduzarium" />
+                  </div>
+                </div>
+                <div class="itc-slider-item d-flex-rows">
+                  <div class="card-text d-flex-columns">
+                    <p>
+                      Большой туннельный аквариум - аквариум с огромным
+                      количеством самых ярких и необычных рыб. Протяженность
+                      аквариума - 124 метра. В аквариуме живут средние и мелкие
+                      морские рыбы, с которыми вы сможете познакомиться уже на
+                      первом шаге.
+                    </p>
+                  </div>
+                  <div class="card-img">
+                    <img src="media/locations/4.png" alt="meduzarium" />
+                  </div>
+                </div>
+                <div class="itc-slider-item d-flex-rows">
+                  <div class="card-text d-flex-columns">
+                    <p>
+                      “Аквариум будущего” - прекрасное место для необычных
+                      фотографий, ведь в нем находится просторный зал с
+                      несколькими цилиндрическими аквариумами. Благодаря
+                      зеркалам локация выглядит еще больше и необычнее.
+                    </p>
+                  </div>
+                  <div class="card-img">
+                    <img src="media/locations/5.png" alt="meduzarium" />
+                  </div>
+                </div>
+                <div class="itc-slider-item d-flex-rows">
+                  <div class="card-text d-flex-columns">
+                    <p>
+                      “Станция мудрости” - зал, в котором находятся черепахи,
+                      змеи, крокодилы и другие пресмыкающиеся животные.
+                    </p>
+                  </div>
+                  <div class="card-img">
+                    <img src="media/locations/6.png" alt="meduzarium" />
+                  </div>
+                </div>
+                <div class="itc-slider-item d-flex-rows">
+                  <div class="card-text d-flex-columns">
+                    <p>
+                      “Magic shop” - сувенирный магазин, где можно приобрети
+                      мягкие игрушки, чашки, магниты и другие сувениры на
+                      память. Главная фишка магазина - 20% от всей выручки
+                      уходит на спасение океана.
+                    </p>
+                  </div>
+                  <div class="card-img">
+                    <img src="media/locations/7.png" alt="meduzarium" />
+                  </div>
+                </div>
+                <div class="itc-slider-item d-flex-rows">
+                  <div class="card-text d-flex-columns">
+                    <p>
+                      “Magic restaurant” - ресторан с аквариумом, в котором
+                      можно вкусно поужинать после прогулки по океанариуму.
+                      Устройте незабываемое свидание, лучший день рождения или
+                      же встречу с друзьями в
+                      <span>Magic Ocean</span>!
+                    </p>
+                  </div>
+                  <div class="card-img">
+                    <img src="media/locations/8.png" alt="meduzarium" />
+                  </div>
+                </div>
+              </div>
+              <button class="itc-slider-btn itc-slider-btn-prev"></button>
+              <button class="itc-slider-btn itc-slider-btn-next"></button>
+              <ol class="itc-slider-indicators">
+                <li class="itc-slider-indicator" data-slide-to="0"></li>
+                <li class="itc-slider-indicator" data-slide-to="1"></li>
+                <li class="itc-slider-indicator" data-slide-to="2"></li>
+                <li class="itc-slider-indicator" data-slide-to="3"></li>
+                <li class="itc-slider-indicator" data-slide-to="4"></li>
+                <li class="itc-slider-indicator" data-slide-to="5"></li>
+                <li class="itc-slider-indicator" data-slide-to="6"></li>
+                <li class="itc-slider-indicator" data-slide-to="7"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- tickets -->
+    <section id="tickets" class="tickets w-100 py-40">
+      <div class="container">
+        <div class="tickets-inner d-flex-columns">
+          <h2>Билеты</h2>
+          <div class="swiper w-100">
+            <div class="ticket-cards swiper-container">
+              <div class="tickets-wrapper swiper-wrapper">
+                <div class="ticket swiper-slide">
+                  <div class="ticket__wrapper">
+                    <div class="ticket-header">
+                      <img src="media/Logo/logo_white.svg" alt="logo" />
+                    </div>
+
+                    <div class="ticket-info">
+                      <h3 class="ticket__title">Детский</h3>
+
+                      <p class="ticket__subtitle">
+                        <span class="price">1500 ₽</span>
+                        <span>с человека</span>
+                      </p>
+
+                      <p class="ticket__text">Для детей от 3-х до 14 лет</p>
+                    </div>
+
+                    <div class="ticket-footer">
+                      <a
+                        href="https://avavion.ru/"
+                        class="button ticket__button"
+                        >Купить билет</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ticket swiper-slide">
+                  <div class="ticket__wrapper">
+                    <div class="ticket-header">
+                      <img src="media/Logo/logo_white.svg" alt="logo" />
+                    </div>
+
+                    <div class="ticket-info">
+                      <h3 class="ticket__title">Семейный</h3>
+
+                      <p class="ticket__subtitle">
+                        <span class="price">2500 ₽</span>
+                        <span>с человека</span>
+                      </p>
+
+                      <p class="ticket__text">
+                        Стандартный билет. Дети до 3-х лет бесплатно
+                      </p>
+                    </div>
+
+                    <div class="ticket-footer">
+                      <a
+                        href="https://avavion.ru/"
+                        class="button ticket__button"
+                        >Купить билет</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ticket swiper-slide">
+                  <div class="ticket__wrapper">
+                    <div class="ticket-header">
+                      <img src="media/Logo/logo_white.svg" alt="logo" />
+                    </div>
+
+                    <div class="ticket-info">
+                      <h3 class="ticket__title">Все включено</h3>
+
+                      <p class="ticket__subtitle">
+                        <span class="price">4500 ₽</span>
+                        <span>с человека</span>
+                      </p>
+
+                      <p class="ticket__text">
+                        Предоставляется 2 магнита с фотографиями, а так же
+                        бизнес-ланч в Magic restaurant
+                      </p>
+                    </div>
+
+                    <div class="ticket-footer">
+                      <a
+                        href="https://avavion.ru/"
+                        class="button ticket__button"
+                        >Купить билет</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ticket swiper-slide">
+                  <div class="ticket__wrapper">
+                    <div class="ticket-header">
+                      <img src="media/Logo/logo_white.svg" alt="logo" />
+                    </div>
+
+                    <div class="ticket-info">
+                      <h3 class="ticket__title">Детский</h3>
+
+                      <p class="ticket__subtitle">
+                        <span class="price">1500 ₽</span>
+                        <span>с человека</span>
+                      </p>
+
+                      <p class="ticket__text">Для детей от 3-х до 14 лет</p>
+                    </div>
+
+                    <div class="ticket-footer">
+                      <a
+                        href="https://avavion.ru/"
+                        class="button ticket__button"
+                        >Купить билет</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ticket swiper-slide">
+                  <div class="ticket__wrapper">
+                    <div class="ticket-header">
+                      <img src="media/Logo/logo_white.svg" alt="logo" />
+                    </div>
+
+                    <div class="ticket-info">
+                      <h3 class="ticket__title">Семейный</h3>
+
+                      <p class="ticket__subtitle">
+                        <span class="price">2500 ₽</span>
+                        <span>с человека</span>
+                      </p>
+
+                      <p class="ticket__text">
+                        Стандартный билет. Дети до 3-х лет бесплатно
+                      </p>
+                    </div>
+
+                    <div class="ticket-footer">
+                      <a
+                        href="https://avavion.ru/"
+                        class="button ticket__button"
+                        >Купить билет</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ticket swiper-slide">
+                  <div class="ticket__wrapper">
+                    <div class="ticket-header">
+                      <img src="media/Logo/logo_white.svg" alt="logo" />
+                    </div>
+
+                    <div class="ticket-info">
+                      <h3 class="ticket__title">Все включено</h3>
+
+                      <p class="ticket__subtitle">
+                        <span class="price">4500 ₽</span>
+                        <span>с человека</span>
+                      </p>
+
+                      <p class="ticket__text">
+                        Предоставляется 2 магнита с фотографиями, а так же
+                        бизнес-ланч в Magic restaurant
+                      </p>
+                    </div>
+
+                    <div class="ticket-footer">
+                      <a
+                        href="https://avavion.ru/"
+                        class="button ticket__button"
+                        >Купить билет</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services  -->
+    <section id="services" class="services w-100 py-40">
+      <div class="container">
+        <div class="services-inner w-100 d-flex-columns">
+          <h2>Услуги</h2>
+          <div class="services-cards d-flex-rows w-100">
+            <div class="service-card1 d-flex-rows">
+              <div class="card1-img">
+                <img src="media/services/1.png" alt="#" />
+              </div>
+              <div class="card1-info d-flex-columns">
+                <h4>Дайвинг с тюленями</h4>
+                <p>
+                  Мечтаете поплавать с морскими щенками? Тогда вы по адресу!
+                  Каждый четверг с 13:00 до 20:00 можно купить услугу “Дайвинг с
+                  тюленями”. Стоимость услуги - 12 000 ₽ с человека. Только для
+                  лиц старше 16 лет.
+                </p>
+                <a href="#" class="button">Подробнее</a>
+              </div>
+            </div>
+            <div class="service-cards2 d-flex-columns">
+              <div class="service-card2 d-flex-rows">
+                <div class="card2-img">
+                  <img src="media/services/2.png" alt="#" />
+                </div>
+                <div class="card2-info d-flex-columns">
+                  <h5>Профессиональный фотограф</h5>
+                  <h5>от 2000₽/ч.</h5>
+                  <a href="#" class="button">Подробнее</a>
+                </div>
+              </div>
+              <div class="service-card3 d-flex-rows">
+                <div class="card2-img">
+                  <img src="media/services/3.png" alt="#" />
+                </div>
+                <div class="card2-info d-flex-columns">
+                  <h5>Банкет в ресторане</h5>
+                  <p>Для брони звоните по номеру +7(917)-911-52-62</p>
+                  <a href="#" class="button">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ  -->
+    <section id="faq" class="faq py-40 w-100">
+      <div class="container">
+        <div class="faq-inner w-100 d-flex-columns">
+          <h2>FAQ</h2>
+          <div class="questions w-100 d-flex-columns">
+            <div class="faq-item w-100">
+              <input type="checkbox" class="faq-input" name="faq" id="faq_1" />
+              <label class="faq-title" for="faq_1">
+                Можно ли кормить животных?
+              </label>
+
+              <div class="faq-text">
+                Да, некоторых животных можно кормить в определенное для этого
+                время. Для этого подойдите к стойке администрации и
+                проконсультируйтесь по этому вопросу.
+              </div>
+            </div>
+            <div class="faq-item w-100">
+              <input type="checkbox" class="faq-input" name="faq" id="faq_2" />
+              <label class="faq-title" for="faq_2"
+                >Как можно забронировать стол в Magic restaurant?
+              </label>
+
+              <div class="faq-text">
+                Для этого необходимо позвонить по номеру +7(917)-911-52-62 и
+                связаться с администарцией ресторана. Горячая линия работает с
+                10:00 до 22:00.
+              </div>
+            </div>
+            <div class="faq-item w-100">
+              <input type="checkbox" class="faq-input" name="faq" id="faq_3" />
+              <label class="faq-title" for="faq_3"> Есть ли парковка? </label>
+
+              <div class="faq-text">
+                На территории океанариума есть парковка. На ней 340 парковочных
+                мест.
+              </div>
+            </div>
+            <div class="faq-item w-100">
+              <input type="checkbox" class="faq-input" name="faq" id="faq_4" />
+              <label class="faq-title" for="faq_4">
+                Есть ли условия для людей с ограниченными возможностями?
+              </label>
+
+              <div class="faq-text">
+                Океанариум обладает пандусами, металлическими табличками со
+                шрифтом Брайля, а так же экскурсоводами, которые с радостью вам
+                помогут.
+              </div>
+            </div>
+            <div class="faq-item w-100">
+              <input type="checkbox" class="faq-input" name="faq" id="faq_5" />
+              <label class="faq-title" for="faq_5">
+                Проводятся ли экскурсии?
+              </label>
+
+              <div class="faq-text">
+                Групповые экскурсии проводятся 3 раза в день, в 12:00, 14:00 и
+                18:00. При желании можно заказать индивидуальную экскурсию в
+                любое рабочее время.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery  -->
+    <section class="gallery w-100 py-40" id="gallery">
+      <div class="container">
+        <div class="galerry-inner w-100 d-flex-columns">
+          <h2>Наша фотогалерея</h2>
+          <div class="gallery-items d-flex-rows">
+            <div class="gallery-item">
+              <img src="media/gallery/1.png" alt="#" />
+            </div>
+            <div class="gallery-item-group d-flex-columns">
+              <div class="gallery-item">
+                <img src="media/gallery/2.png" alt="#" />
+              </div>
+              <div class="gallery-item">
+                <img src="media/gallery/3.png" alt="#" />
+              </div>
+            </div>
+            <div class="gallery-item">
+              <img src="media/gallery/4.png" alt="#" />
+            </div>
+            <div class="gallery-item">
+              <img src="media/gallery/5.png" alt="#" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- replies  -->
+    <section id="review" class="review w-100 py-40">
+      <div class="container">
+        <div class="review-inner w-100 d-flex-columns">
+          <h2>Что о нас говорят</h2>
+          <div class="swiper w-100">
+            <div class="review-items swiper-container">
+              <div class="review-wrapper swiper-wrapper">
+                <div class="review-item d-flex-columns swiper-slide">
+                  <div class="review-profile d-flex-rows">
+                    <div class="profile-img">
+                      <img src="media/reviews/1.png" alt="#" />
+                    </div>
+                    <p class="profile-name">Салават Зиатдинов</p>
+                  </div>
+                  <div class="review-text">
+                    Прекрасное место чтоб провести его с семьей. Очень
+                    понравился “Медузариум”. С большим удовольствием вернусь
+                    снова.
+                  </div>
+                </div>
+                <div class="review-item d-flex-columns swiper-slide">
+                  <div class="review-profile d-flex-rows">
+                    <div class="profile-img">
+                      <img src="media/reviews/2.png" alt="#" />
+                    </div>
+                    <p class="profile-name">Виолетта Чернышева</p>
+                  </div>
+                  <div class="review-text">
+                    Самый лучший океанариум в котором я была! Много эмоций,
+                    яркие фотографии и самое главное - дайвинг с тюленями!
+                    Незабываемое путешествие.
+                  </div>
+                </div>
+                <div class="review-item d-flex-columns swiper-slide">
+                  <div class="review-profile d-flex-rows">
+                    <div class="profile-img">
+                      <img src="media/reviews/3.png" alt="#" />
+                    </div>
+                    <p class="profile-name">Зарина Яруллина</p>
+                  </div>
+                  <div class="review-text">
+                    Я в восторге! Будто в сказку попала. Сделали очень много
+                    классных фотографий и вкусно пообедали в ресторане.
+                  </div>
+                </div>
+                <div class="review-item d-flex-columns swiper-slide">
+                  <div class="review-profile d-flex-rows">
+                    <div class="profile-img">
+                      <img src="media/reviews/1.png" alt="#" />
+                    </div>
+                    <p class="profile-name">Салават Зиатдинов</p>
+                  </div>
+                  <div class="review-text">
+                    Прекрасное место чтоб провести его с семьей. Очень
+                    понравился “Медузариум”. С большим удовольствием вернусь
+                    снова.
+                  </div>
+                </div>
+                <div class="review-item d-flex-columns swiper-slide">
+                  <div class="review-profile d-flex-rows">
+                    <div class="profile-img">
+                      <img src="media/reviews/2.png" alt="#" />
+                    </div>
+                    <p class="profile-name">Виолетта Чернышева</p>
+                  </div>
+                  <div class="review-text">
+                    Самый лучший океанариум в котором я была! Много эмоций,
+                    яркие фотографии и самое главное - дайвинг с тюленями!
+                    Незабываемое путешествие.
+                  </div>
+                </div>
+                <div class="review-item d-flex-columns swiper-slide">
+                  <div class="review-profile d-flex-rows">
+                    <div class="profile-img">
+                      <img src="media/reviews/3.png" alt="#" />
+                    </div>
+                    <p class="profile-name">Зарина Яруллина</p>
+                  </div>
+                  <div class="review-text">
+                    Я в восторге! Будто в сказку попала. Сделали очень много
+                    классных фотографий и вкусно пообедали в ресторане.
+                  </div>
+                </div>
+                <div class="review-item d-flex-columns swiper-slide">
+                  <div class="review-profile d-flex-rows">
+                    <div class="profile-img">
+                      <img src="media/reviews/1.png" alt="#" />
+                    </div>
+                    <p class="profile-name">Салават Зиатдинов</p>
+                  </div>
+                  <div class="review-text">
+                    Прекрасное место чтоб провести его с семьей. Очень
+                    понравился “Медузариум”. С большим удовольствием вернусь
+                    снова.
+                  </div>
+                </div>
+                <div class="review-item d-flex-columns swiper-slide">
+                  <div class="review-profile d-flex-rows">
+                    <div class="profile-img">
+                      <img src="media/reviews/2.png" alt="#" />
+                    </div>
+                    <p class="profile-name">Виолетта Чернышева</p>
+                  </div>
+                  <div class="review-text">
+                    Самый лучший океанариум в котором я была! Много эмоций,
+                    яркие фотографии и самое главное - дайвинг с тюленями!
+                    Незабываемое путешествие.
+                  </div>
+                </div>
+                <div class="review-item d-flex-columns swiper-slide">
+                  <div class="review-profile d-flex-rows">
+                    <div class="profile-img">
+                      <img src="media/reviews/3.png" alt="#" />
+                    </div>
+                    <p class="profile-name">Зарина Яруллина</p>
+                  </div>
+                  <div class="review-text">
+                    Я в восторге! Будто в сказку попала. Сделали очень много
+                    классных фотографий и вкусно пообедали в ресторане.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contacts -->
+    <section id="contacts" class="contacts w-100 py-40">
+      <div class="container">
+        <div class="contacts-inner d-flex-rows w-100">
+          <div class="contact-card d-flex-columns">
+            <h3>Заказать звонок</h3>
+            <input type="text" class="reg" name="name" placeholder="Ваше имя" />
+            <input
+              type="text"
+              class="reg"
+              name="number"
+              maxlength="12"
+              placeholder="Ваш номер телефона"
+            />
+            <a href="#" class="button">Позвонить мне</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer w-100 py-40">
+      <div class="container">
+        <div class="footer-inner d-flex-columns w-100 ">
+          <div class="footer-block d-flex-rows w-100">
+            <div class="footer-logo d-flex-rows">
+              <img src="media/Logo/logo.svg" alt="#" />
+            </div>
+            <div class="footer-item d-flex-columns">
+              <a href="#intro" class="footer_nav">Главная</a>
+              <a href="#about" class="footer_nav">О нас</a>
+              <a href="#locations" class="footer_nav">Локации</a>
+              <a href="#tickets" class="footer_nav">Билеты</a>
+              <a href="#contacts" class="footer_nav">Контакты</a>
+            </div>
+            <div class="footer-item d-flex-columns">
+              <a href="#faq" class="footer_nav">FAQ</a>
+              <a href="#gallery" class="footer_nav">Галерея</a>
+              <a href="#services" class="footer_nav">Услуги</a>
+              <a href="#review" class="footer_nav">Отзывы</a>
+            </div>
+            <div class="footer-contacts d-flex-columns">
+              <h3>Время работы</h3>
+              <p>
+                10:00 - 21:00<br />
+                ежедневно
+              </p>
+              <div class="socials d-flex-rows">
+                <div class="social">
+                  <img src="media/icons/telegram.svg" alt="#" />
+                </div>
+                <div class="social">
+                  <img src="media/icons/vk.svg" alt="#" />
+                </div>
+                <div class="social">
+                  <img src="media/icons/whatsup.svg" alt="#" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright d-flex-columns w-100">
+            <hr>
+            <div class="copyright-text d-flex-rows">
+            <p>© 2023 Чернышёва Виолетта | Все права защищены.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"
+    defer
+  ></script>
+  <script src="script/script.js" defer></script>
+  <script src="slider/itc-slider.js" defer></script>
+</html>
